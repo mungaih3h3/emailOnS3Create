@@ -1,14 +1,10 @@
-# Welcome to your CDK TypeScript project
+# s3 -> onObjectCreated -> notify me via email
 
-This is a blank project for TypeScript development with CDK.
+A serverless workflow whereby users are notified via email each time an object is uploaded to an s3 bucket
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Built with aws cdk
 
-## Useful commands
+## Services used
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+1. AWS s3
+2. AWS sns
